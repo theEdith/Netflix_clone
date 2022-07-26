@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Netflix Clone</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+    </style>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar_netflix">
+                <img class="netflix_logo" src="./images/logo.png" alt="Logo">
+            </div>
+            <div class="nav_bar_items">
+                <div class="nav_item">
+                    <div class="drop_down_container">
+                        <i class="fa fa-globe"></i>
+                        <select name="languages" id="languagesSelect" class="languages_drop_down">
+                            <option value="english" selected>English</option>
+                            <option value="hindi">Hindi</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="nav_item">
+                    <a href="/loginPage.html">
+                    <button class="signIn_button">Sign In</button></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero_bg_image_container">
+                <img class="bg_image" src="./images/main_bg.jpg" alt="main_bg">
+            </div>
+            <div class="hero_bg_overlay"></div>
+            <div class="hero_card">
+                <h1 class="hero_title">
+                    Unlimited movies,TV<br>
+                    shows and more.
+                </h1>
+                <h2 class="hero_subtitle">
+                    Watch anywhere. Cancel anytime.
+                </h2>
+                <p class="hero_description">
+                    <nobr>
+                    Ready to watch? Enter your email to create or restart your membership.</nobr>
+                </p>
+                <div class="email_align">
+                    <nobr>
+                        <input type="email" required placeholder="Enter email and click get started" class="email"><a href="movies_page.html"><button class="get_started">Get Started ></button></a>
+                    </nobr>
+                </div>
+            </div>
+            <hr>
+        </section>
+        <section class="style_cards">
+            <div class="card1">
+                <div class="desc-1">
+                    <h1 class="heading">Enjoy on your TV.</h1>
+                    <h4 class="sub_desc">Watch on smart TVs, PlayStation, Xbox,<br>
+                        Chromecast, Apple TV, Blu-ray players and<br>
+                        more.
+                    </h4>
+                </div>
+                <img src="./images/tv.png" alt="TV image">
+                <video src="./images/card_1.mp4" autoplay="" type="video/mp4" muted="" loop=""></video>
+            </div>
+            <hr>
+            <div class="card2"> 
+                <img src="./images/card2.jpg" alt="TV image">
+                <div class="desc-2">
+                    <h1 class="heading">Download your shows<br>to watch offline.</h1>
+                    <h4 class="sub_desc">Save your favourites easily and always have<br>something to watch.
+                    </h4>
+                </div>
+            </div>
+            <hr>
+            <div class="card3">
+                <div class="desc-3">
+                    <h1 class="heading">Watch everywhere.</h1>
+                    <nobr>
+                    <h4 class="sub_desc">Stream unlimited movies and TV shows on your<br>phone, tablet, laptop, and TV.
+                    </h4></nobr>
+                </div>
+                <img src="./images/card3.png" alt="TV image">
+                <video src="./images/video_3.m4v" autoplay="" type="video/mp4" muted="" loop=""></video>
+            </div>
+            <hr>
+            <div class="card4"> 
+                <img src="./images/card4.png" alt="TV image">
+                <div class="desc-4">
+                    <h1 class="heading">Create profiles for<br>children.</h1>
+                    <h4 class="sub_desc">Send children on adventures with their favourite<br>characters in a space made just for them—free<br>with your membership.
+                    </h4>
+                </div>
+            </div>
+            <hr>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Questions? Call 000-800-040-1843</p>
+        <div class="footer_columns">
+            <ul>
+                <li>FAQ</li>
+                <li>Investor Relations</li>
+                <li>Privacy</li>
+                <li>Speed Test</li>
+            </ul>
+            <ul>
+                <li>Help Centre</li>
+                <li>Jobs</li>
+                <li>Cookie Preferences</li>
+                <li>Legal Notices</li>
+            </ul>
+            <ul>
+                <li>Account</li>
+                <li>Ways to Watch</li>
+                <li>Corporate Information</li>
+                <li>Only on Netflix</li>
+            </ul>
+            <ul>
+                <li>Media Centre</li>
+                <li>Terms of Use</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+    </footer>
+</body>

@@ -1,0 +1,267 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    z-index: 10;
+    height: 170px;
+}
+
+.navbar_netflix{
+    position: relative;
+    bottom: 45%;
+    width: 125px;
+    height: 100%;
+}
+
+.netflix_logo{
+    height: 140%;
+    width: 170%;
+}
+
+.nav_bar_items{
+    display: flex;
+    gap: 10px;
+}
+
+.languages_drop_down{
+    border: none;
+    color: white;
+    background: transparent;
+    outline: none;
+}
+
+.drop_down_container{
+    border: 1px solid white;
+    padding: 0.4rem;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.signIn_button{
+    border: #dc030f;
+    background-color: #dc030f;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    height: 35px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.hero_bg_image_container{
+    width: 100%;
+    height: 100%;
+}
+
+.bg_image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero_bg_overlay{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 120%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.hero_card{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero_title{
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.hero_subtitle,
+.hero_description{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.email_align{
+    display: flex;
+    flex-direction: row;
+}
+
+.email{
+    width: 500px;
+    height: 60px;
+    color: black;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    border-color: white;
+    border: none;
+    outline: none;
+}
+
+
+.get_started{
+    cursor: pointer;
+    position: relative;
+    top: 2px;
+    font-size: large;
+    color: white;
+    font-size: 1.4rem;
+    width: 170px;
+    height: 60px;
+    background-color: #dc030f;
+    border: 1px solid #dc030f;
+    border-radius: 2px;
+}
+.card1,
+.card2,
+.card3,
+.card4{
+    border-top: 8px rgb(69, 69, 69);
+    padding: 50px;
+}
+
+hr{
+height: 4px;
+background: #999;
+}
+
+.card1{
+position: relative;
+display: inline-grid;
+grid-template-columns: 50% 40%;
+text-align: left;
+align-items: center;
+padding: 25px 45px 50px;
+}
+
+.desc-1{
+    padding-left: 80px;
+}
+
+.heading{
+    font-size: 3rem;
+    display: inline-block;
+}
+.sub_desc{
+    padding-top: 8px;
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+
+.card1 video{
+    position: relative;
+    width: 122%;
+    height: 84%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index: -1;
+}
+
+.card1 img{
+grid-column: 2/2;
+grid-row: 1/2;
+}
+.card2{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 40% 50%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;      
+}
+
+.desc-2{
+    position: relative;
+    left: 210px;
+    display: inline;
+}
+
+.card3{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+}
+.desc-3{
+    padding-left: 80px;
+}
+
+.card3 video{
+    position: relative;
+    top: -70px;
+    left: 170px;
+    width: 68%;
+    height: 65%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index: -1;
+}
+
+.card3 img{
+    position: relative;
+    left: 73px;
+    width: 110%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+
+.card4{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 40% 50%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;      
+}
+
+.desc-4{
+    position: relative;
+    left: 210px;
+    display: inline;
+}
+
+.footer,
+footer a{
+color: #999;
+font-size: 0.9rem;
+}
+
+.footer p{
+    margin-top: 1.4rem;
+    margin-bottom: 1.5rem;
+    padding-left: 120px;
+}
+
+.footer_columns{
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 2rem;
+    padding-left: 120px;
+    padding-bottom: 40px;
+}
+
+.footer li{
+    list-style: none;
+    line-height: 3;
+}

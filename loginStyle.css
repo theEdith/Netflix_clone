@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: #999;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    height: 170px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.logo{
+    position: relative;
+    left: 4%;
+    height: 130px;
+}
+
+.bg_image_container{
+    height: 120%;
+    width: 100%;
+}
+.bg_image{
+    height: 131%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.bg_overlay{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 120%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.login_container{
+    height: 620px;
+    width: 430px;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 16%;
+    left: 35%;
+    border-radius: 7px;
+}
+.sign_in_container{
+    position: relative;
+    top: 10%;
+    left: 14%;
+}
+
+.signIn{
+    font-size: xx-large;
+    font-weight: 2500;
+}
+
+.email_container{
+    position: relative;
+    top:13%;
+    left: 14%;
+}
+.email{
+    background-color: #999;
+    width: 320px;
+    height: 55px;
+    color: black;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    border-color: #999;
+    border: none;
+    outline: none;
+}
+
+.password_container{
+    position: relative;
+    top: 16%;
+    left: 14%;
+}
+.pass{
+    background-color: #999;
+    width: 320px;
+    height: 55px;
+    color: black;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    border-color: #999;
+    border: none;
+    outline: none;
+}
+
+.button_container{
+    position: relative;
+    top: 24%;
+    left: 14%;
+}
+
+.btn{
+    width: 320px;
+    height: 55px;
+    color:white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    border-color:#dc030f;
+    background-color: #dc030f;
+    border: none;
+    outline: none;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.below_signIn{
+    position: relative;
+    top: 26%;
+    display: flex;
+    flex-direction: row;
+    left: 14%;
+}
+
+.remember_me_container{
+    font-size: small;
+    font-weight: 100;
+}
+
+.need_help_container{
+    position: relative;
+    left: 33%;
+}
+
+.need_help{
+    font-weight: 100;
+}
+
+.content{
+    position: relative;
+    top: 40%;
+    left: 14%;
+}
+.need_to_know{
+    font-weight: 550;
+    color: white;
+}
+
+.last_content{
+margin-top: 20px;
+font-size: small;
+font-weight: 100;
+}
+
+.footer{
+    position: relative;
+    height: 260px;
+}
+
+.footer,
+footer a{
+color: #999;
+font-size: 0.9rem;
+background-color: rgba(0, 0, 0, 0.9);
+}
+
+.para{
+    padding-top: 3rem;
+    margin-bottom: 2.7rem;
+    padding-left: 120px; 
+}
+
+.footer_columns{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 2rem;
+    padding-left: 120px;
+    padding-bottom: 0px;
+    
+}
+
+.footer li{
+    font-size: smaller;
+    font-weight:100;
+    list-style: none;
+    line-height: 3;
+}
